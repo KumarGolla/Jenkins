@@ -10,5 +10,5 @@
    - pause:
       seconds: 20
    - name: run files
-     command: docker stack deploy --compose-file /var/lib/jenkins/workspace/kumar/Jenkins/deploy.yml naveen
+     command: docker stack deploy --compose-file /var/lib/jenkins/workspace/kumar/deploy.yml naveen
 
