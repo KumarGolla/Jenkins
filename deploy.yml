@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  naveen:
+    image: helloworld:latest
+    ports:
+      - 5000:5000
+    deploy:
+      replicas: 2
+
